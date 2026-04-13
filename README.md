@@ -2,7 +2,7 @@
 
 Análisis exploratorio completo sobre el dataset público de Instacart, desarrollado como parte del programa de Maestría en Fundamentos de Data Science. El proyecto cubre auditoría de calidad de datos, construcción de un One Big Table (OBT) y análisis multivariado de negocio.
 
----
+
 
 ## Contenido del repositorio
 
@@ -18,7 +18,7 @@ workshop-3/
 └── README.md
 ```
 
----
+
 
 ## Estructura del análisis
 
@@ -50,7 +50,7 @@ Construcción de una tabla desnormalizada mediante left joins secuenciales de la
 - C4: Proporción de recompras por usuario
 - C5: Top 20 productos elegidos primero al armar el carrito
 
----
+
 
 ## Principales hallazgos
 
@@ -60,7 +60,7 @@ Construcción de una tabla desnormalizada mediante left joins secuenciales de la
 - Correlación Spearman **r = 0.85** entre poner un producto primero en el carrito y su tasa de recompra global, el primer ítem es un predictor de fidelidad.
 - El **54% de los productos** comprados por usuario son recompras, con un 25% de usuarios superando ratio 0.72 de fidelidad.
 
----
+
 
 ## Cómo ejecutar el proyecto
 
@@ -83,14 +83,14 @@ jupyter notebook taller_3_Manuel_Pillapa.ipynb
 ### 4. Ejecutar las celdas
 Ejecutar en orden desde la primera celda. Las celdas de carga de datos asumen que los archivos CSV están en la carpeta `datos/`.
 
----
+
 
 ## Stack tecnológico
 
 - Python 3.13
 - pandas · numpy · scipy · matplotlib
 
----
+
 
 ## Autor
 
